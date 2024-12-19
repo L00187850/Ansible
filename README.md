@@ -1,9 +1,11 @@
 # Project Title
 Ansible Exercises
 ## Description
-This repository will show how ansible is ran with the help of some screenshots. More can be found in the word document "Ansible Screenshots" found in this repo.
-However the main ansible ones can be found here.
+This repository will show how ansible is ran with the help of some screenshots. 
+More can be found in the word document "Ansible Screenshots" found in this repo. However the main ansible ones
+can be found here.
 
+# Contents
 ## Proving connectivity between servers
 This screenshot confirms that communication between all three servers is possible.
 ![Connectivity](https://github.com/L00187850/Ansible/blob/main/screenshots/Connectivity%20between%20ansiblemanager%20and%20other%20servers.jpg)
@@ -32,5 +34,23 @@ In this example we have got disk space being ran on every server in ansible.
 ## SSH acces on all devices
 This part shows the status of SSH access on all devices running in ansible.
 ![Using Ansible to show ssh access on all devices](https://github.com/L00187850/Ansible/blob/main/screenshots/Showing%20SSH%20access%20to%20a%20user%20on%20multiple%20devices.jpg)
-## Contents
+
+## Playbook introduction
+This screenshot introduces the concept of playbooks. A playbook is a script used to 
+define a set of tasks to be executed. It allows for the automated configuration of 
+systems and devices on a range of topics, from updates, to software installations.
+It is normally ran in the YAML format.
+In this case a playbook is being used to update devices using "dist upgrade"
+and then reboot the device afterwards if it is required.
+![running a playbook to run a task](https://github.com/L00187850/Ansible/blob/main/screenshots/running%20updates.yaml%20file.jpg)
+
+## Apache installation
+The screenshot below demonstrates the installation of Apache on all devices in a 
+specific group. In this example it is the webservers group.
+![Installing apache](https://github.com/L00187850/Ansible/blob/main/screenshots/running%20install_apache.yaml%20file.jpg)
+
+Below is proof afterward thats apache installed on AnsibleServer1. Note that the IP 
+Address is the same as Ansible Server 1.
+![Apache installed](https://github.com/L00187850/Ansible/blob/main/screenshots/proof%20of%20apache%20server%20running.jpg)
+
 
