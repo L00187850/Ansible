@@ -1,9 +1,9 @@
-# Project Title
-Ansible Exercises
+# Ansible Exercises
 ## Description
 This repository will show how ansible is ran with the help of some screenshots. 
 More can be found in the word document "Ansible Screenshots" found in this repo. However the main ansible ones
-can be found here.
+can be found here. See the "Ansible Screenshots" document for a full view of the screenshots taken during this 
+exercise.
 
 # Contents
 ## Proving connectivity between servers
