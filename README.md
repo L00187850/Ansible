@@ -6,6 +6,8 @@ can be found here. See the "Ansible Screenshots" document for a full view of the
 exercise.
 
 # Contents
+## Please go to the below link to find a full list of screenshots.
+![Ansible Screenshots](https://github.com/L00187850/Ansible/blob/main/Ansible%20Screenshots.docx)
 ## Proving connectivity between servers
 This screenshot confirms that communication between all three servers is possible.
 
