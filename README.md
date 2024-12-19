@@ -1,6 +1,6 @@
 # Project Title
 Ansible Exercises
 ## Description
-![Test Screenshot]("screenshots/Installing%20Mariadb.jpg")
+![Test Screenshot](./screenshots/installing%20MariaDB.jpg)
 ## Contents
 
